@@ -4,7 +4,7 @@ package com.example.demo.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(name = "UserInfo")
 public class User {
     @Id
     @GeneratedValue
