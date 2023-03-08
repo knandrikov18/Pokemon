@@ -90,4 +90,18 @@ public class Pokemon {
     public void setDeffensivePointsOfPokemon(double deffensivePointsOfPokemon) {
         this.deffensivePointsOfPokemon = deffensivePointsOfPokemon;
     }
+
+    @Override
+    public String toString() {
+        return "Pokemon{" +
+                "pokemonId=" + pokemonId +
+                ", pokemonName='" + pokemonName + '\'' +
+                ", pokemonColor='" + pokemonColor + '\'' +
+                ", pokemonType='" + pokemonType + '\'' +
+                ", size=" + size +
+                ", lifePointsPokemon=" + lifePointsPokemon +
+                ", attackPoints=" + attackPoints +
+                ", deffensivePointsOfPokemon=" + deffensivePointsOfPokemon +
+                '}';
+    }
 }
